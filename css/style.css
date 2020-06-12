@@ -471,7 +471,7 @@ a, a:hover {
   left: 0;
   top: 0;
   margin-top: -130px;
-  background: #fff !important;
+  background: #000 !important;
   -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
   padding-top: 5px;
@@ -487,7 +487,7 @@ a, a:hover {
 }
 
 .unslate_co--site-nav.scrolled .unslate_co--site-logo {
-  color: #000;
+  color: #fff;
 }
 
 .unslate_co--site-nav.scrolled .site-nav-ul, .unslate_co--site-nav.scrolled .site-nav-ul-none-onepage {
