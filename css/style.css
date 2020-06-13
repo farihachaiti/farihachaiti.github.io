@@ -70,7 +70,8 @@ a, a:hover {
   }
 }
 
-.unslate_co--footer {
+.unslate_co--
+ {
   position: fixed !important;
   width: 100%;
   background-color: #191919;
@@ -1788,6 +1789,25 @@ figure.dotted-bg:before {
   color: #fff;
 }
 
+@media (max-width: 991.98px) {
+  .unslate_co--footer .footer-site-social li a {
+    display: block;
+	color: rgba(255, 255, 255, 0.5);
+	letter-spacing: .1rem;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: bold;
+  }
+}
+
+
+@media (max-width: 991.98px) {
+  .unslate_co--footer .footer-site-social li a:focus {
+    color: #fff;
+  }
+}
+
+
 .loader-portfolio-wrap {
   text-align: center;
   display: none;
@@ -1800,6 +1820,10 @@ figure.dotted-bg:before {
   transform: translateX(-50%);
   position: absolute;
 }
+
+
+
+
 
 .loader-portfolio, .site-loader {
   width: 2rem;
