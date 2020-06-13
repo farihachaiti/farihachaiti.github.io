@@ -58,7 +58,7 @@ a, a:hover {
 }
 
 .unslate_co--site-inner {
-  margin-bottom: 400px;
+  margin-bottom: 100px;
   position: relative;
   width: 100%;
   z-index: 1;
@@ -1792,6 +1792,8 @@ figure.dotted-bg:before {
 @media (max-width: 991.98px) {
   .unslate_co--footer .footer-site-social li a {
     display: block;
+	padding-left: 20px;
+	padding-right: 20px;
 	color: rgba(255, 255, 255, 0.5);
 	letter-spacing: .1rem;
 	text-transform: uppercase;
