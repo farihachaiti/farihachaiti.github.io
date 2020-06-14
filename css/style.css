@@ -966,6 +966,7 @@ a, a:hover {
   position: relative;
   z-index: 8;
   opacity: 0;
+  visibility: hidden;
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
@@ -1014,8 +1015,9 @@ a, a:hover {
   font-family: "Arimo", sans-serif;
 }
 
-.portfolio-item:hover .overlay, .blog-item:hover .overlay {
+.portfolio-item:hover .overlay {
   opacity: 1;
+  visibility: visible;
 }
 
 .blog-item {
@@ -1028,8 +1030,7 @@ a, a:hover {
 }
 
 .blog-item:hover .overlay {
-  opacity: 0;
-  visibility: hidden;
+  opacity: 0.3;
 }
 
 .filter-wrap {
