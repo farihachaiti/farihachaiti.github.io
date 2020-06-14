@@ -1016,7 +1016,6 @@ a, a:hover {
 
 .portfolio-item:hover .overlay, .blog-item:hover .overlay {
   opacity: 1;
-  visibility: visible;
 }
 
 .blog-item {
