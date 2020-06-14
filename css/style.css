@@ -966,7 +966,6 @@ a, a:hover {
   position: relative;
   z-index: 8;
   opacity: 0;
-  visibility: hidden;
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
