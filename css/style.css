@@ -1031,6 +1031,7 @@ a, a:hover {
 
 .blog-item:hover .overlay {
   opacity: 0.3;
+  visibility: visible;
 }
 
 .filter-wrap {
