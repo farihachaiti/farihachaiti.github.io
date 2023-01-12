@@ -2133,7 +2133,7 @@ span.error {
   visibility: hidden;
 }
 
-.gsap-reveal-img .reveal-wrap .reveal-content .portfolio-item-content h3 {
+.gsap-reveal-img .reveal-wrap .reveal-content .portfolio-item-content h3 a {
   margin-bottom: 10px;
 }
 
