@@ -3,15 +3,22 @@
       xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+      xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 
 <sitemap>
   <loc>https://farihachaiti.github.io/</loc>
+<image:image>
+      <image:loc>https://farihachaiti.github.io/images/bg_1.png</image:loc>
+</image:image>
 </sitemap>
 <sitemap>
   <loc>https://farihachaiti.github.io/index.html</loc>
+  <image:image>
+      <image:loc>https://farihachaiti.github.io/images/bg_1.png</image:loc>
+  </image:image>
 </sitemap>
 
 
